@@ -1,0 +1,63 @@
+body{
+
+background-color: black;
+color: white;
+
+}
+#mc{
+  height:30px;
+  background-color: white;
+  color:#2e87f0;
+  padding-top: 8px;
+  text-align: center;
+  border: solid steelblue 5px;
+}
+h1{
+  background-color: #6e2daf;
+  color:white;
+  padding-bottom: 40px;
+    padding-top: 40px;
+    margin: 1px;
+  text-align: center;
+
+}
+
+.square{
+width: 29%;
+
+padding-bottom: 30% ;
+float: left;
+margin:1.66%;
+border-radius: 20%;
+transition: .5s;
+-webkit-transition:0.5s;
+-moz-transition:0.5s;
+
+}
+#container{
+
+
+  max-width:700px;
+  margin: 20px auto;
+}
+button{
+border= solid black 1px;
+color:steelblue;
+background-color: lightgrey;
+transition:0.3s;
+
+}
+button:hover{
+
+  color:lightgrey;
+  background-color: steelblue;
+}
+.selected{
+
+
+  background-color: steelblue;
+  color:lightgrey;
+}
+#message{
+  transition: 0.5s;
+}
